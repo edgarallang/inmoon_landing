@@ -1,7 +1,7 @@
 @import url('fonts.css');
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
   min-height: 100%;
 }
 
@@ -24,7 +24,7 @@ h5,
 h6 {
 
   /* font properties */
-  font-family: "Roboto", helvetica;
+  font-family: "Nunito", helvetica;
   font-weight: 300;
   color: grey;
 
@@ -50,13 +50,18 @@ h6 {
 
 #min-logo img {
   margin: 0 auto;
-  width: 30%;
+  width: 40%;
 }
 
 #app-description {
   line-height: 1.7;
   color: grey;
   margin: 0px 40px auto;
+  font-weight: 300;
+}
+.app-name {
+  color: rgb(205, 210, 210) !important;
+  margin-bottom: -10px !important;
 }
 
 #section-0 {
@@ -71,10 +76,29 @@ h6 {
 #right-side {
   width: 50%;
   text-align: center;
-  margin: 10% auto;
+  margin: 7% auto;
+}
+
+#app-link {
+    border: 2px solid;
+    border-color: #FB30A8;
+    background-color: white;
+    color: #FB30A8;
+    height: 40px;
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 50px;
+    transition: all 0.8s;
+}
+
+#app-link:hover {
+    border-color: #DE0A80;
+    background-color: #DE0A80;
+    color: white;
 }
 
 #platforms i {
+  color: rgb(110,110,110);
   margin: 15px;
 }
 
