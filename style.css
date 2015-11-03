@@ -3,6 +3,7 @@ body {
 	
 }
 
+<<<<<<< HEAD
 #section-0 {
   width: 100%;
   display: flex;
@@ -20,4 +21,12 @@ body {
 
 section.about{
 	background: red;
+=======
+section.about{
+	background-image: linear-gradient( 90deg, #2e2c7e,  #a3195b );
+	height: 50px;
+	display: flex;
+	width: 100%;
+	padding: 2em;
+>>>>>>> 7a60491d5978ab39ee61918a13c47d0b9e76fdc7
 }
