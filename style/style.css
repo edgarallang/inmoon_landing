@@ -74,6 +74,14 @@ h6 {
   margin: 10% auto;
 }
 
+#platforms i {
+  margin: 15px;
+}
+
+#platforms .fa-2 {
+  font-size: 2em;
+}
+
 section.about{
   background-image: linear-gradient( 90deg, #2e2c7e,  #a3195b );
   display: inline-block;
