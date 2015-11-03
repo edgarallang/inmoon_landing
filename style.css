@@ -10,6 +10,10 @@ header {
   top: 0;
   left: 0;
   z-index: 300;
+
+}
+
+#section-0 {
   width: 100%;
   background: white;
   min-height: 80px;
@@ -76,8 +80,25 @@ h6 {
 
 section.about{
 	background-image: linear-gradient( 90deg, #2e2c7e,  #a3195b );
-	height: 50px;
-	display: flex;
-	width: 100%;
+	display: inline-block;
 	padding: 2em;
+	text-align: center;
+	color: #fff;
+}
+section.about div div.title{
+	display: inline-block;
+	width: 100%;
+}
+section.about div div.title h4{
+	font-weight: 200;
+}
+section.about div div.services{
+	display: flex;
+}
+section.about div div.services figure{
+	display: inline-block;
+	width: 33%;
+}
+section.about div div.services figure figcaption h4{
+	font-weight: 600
 }
