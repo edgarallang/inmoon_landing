@@ -1,7 +1,23 @@
+
 body {
 	
 }
 
-#left-side, #right-side {
+#section-0 {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+#left-side {
   width: 50%;
+  text-align: left;
+}
+
+#right-side {
+  width: 50%;
+  text-align: right;
+}
+
+section.about{
+	background: red;
 }
