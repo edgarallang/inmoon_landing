@@ -79,23 +79,26 @@ section.about{
   display: inline-block;
   padding: 2em 0;
   text-align: center;
-  color: #fff;
-  width: 100%
+  width: 100%;
 }
 section.about div div.title{
   display: inline-block;
   width: 100%;
+  color: #fff;
 }
 section.about div div.title h4{
   font-weight: 200;
+  color: #fff;
 }
 section.about div div.services{
   display: flex;
+  color: #fff;
 }
 section.about div div.services figure{
   display: inline-block;
   width: 33%;
 }
 section.about div div.services figure figcaption h4{
-  font-weight: 600
+  font-weight: 600;
+  color: #fff;
 }
