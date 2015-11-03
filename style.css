@@ -1,3 +1,7 @@
-body{
+body {
 	
+}
+
+#left-side, #right-side {
+  width: 50%;
 }
