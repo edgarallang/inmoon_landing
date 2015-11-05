@@ -70,15 +70,34 @@ h6 {
   display: flex;
   box-sizing: border-box;
 }
+
+.left-appearing {
+  left: 0% !important;
+  opacity: 1 !important;
+  position: relative !important;
+}
+
 #left-side {
   width: 50%;
+  left: -20%;
   text-align: center;
+  transition: all 1.5s;
+  opacity: 0;
+}
+
+.right-appearing {
+  right: 0% !important;
+  opacity: 1 !important;
+  position: relative !important;
 }
 
 #right-side {
   width: 50%;
   text-align: center;
   margin: 7% auto;
+  right: -20%;
+  transition: all 1.5s;
+  opacity: 0;
 }
 
 #app-link {
