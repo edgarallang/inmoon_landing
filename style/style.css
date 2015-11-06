@@ -1,7 +1,7 @@
 @import url('fonts.css');
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Avenir", sans-serif;
   min-height: 100%;
 }
 *:focus {
@@ -26,7 +26,7 @@ h5,
 h6 {
 
   /* font properties */
-  font-family: "Nunito", helvetica;
+  font-family: "Avenir", helvetica;
   font-weight: 300;
   color: grey;
 
@@ -134,13 +134,22 @@ section.about{
   text-align: center;
   width: 100%;
 }
+
+section.about .container {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+  margin-top: 0%;
+  padding: 0 10px;
+}
+
 section.about div div.title{
   display: inline-block;
   width: 100%;
   color: #fff;
 }
 section.about div div.title h4{
-  font-weight: 100;
+  font-weight: 100 !important;
   color: #fff;
   font-size: 1.6em;
   padding-bottom: 0
@@ -156,13 +165,13 @@ section.about div div.services figure{
   display: inline-block;
   width: 33%;
 }
-section.about div div.services figure figcaption h4{
+section.about div div.services figure figcaption h4 {
   font-weight: 100;
   color: #fff;
-  padding-bottom: 0;
+  padding: 20px;
   font-size: 1.4em
 }
-section.about div div.services figure figcaption p{
+section.about div div.services figure figcaption p {
   font-weight: 100;
 }
 section.contact{
@@ -220,4 +229,8 @@ footer{
 }
 footer p{
   font-weight: 100;
+}
+
+figure img {
+  width: 30% !important;
 }
