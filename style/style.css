@@ -124,7 +124,7 @@ h6 {
 }
 
 section.about{
-  background-image: linear-gradient( 90deg, #2e2c7e,  #a3195b );
+  background-image: linear-gradient( 0deg, #2e2c7e,  #a3195b );
   display: flex;
   box-sizing: border-box;
   padding: 2em 0;
@@ -243,6 +243,9 @@ figure img {
   section.contact form div input{
     width: 10%;
     float: none;
+  }
+  section.about{
+    background-image: linear-gradient( 90deg, #2e2c7e,  #a3195b ) !important;
   }
   header{
     position: fixed;
